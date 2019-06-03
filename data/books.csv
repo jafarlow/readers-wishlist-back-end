@@ -1,5 +1,4 @@
-,,,,,,
-ID,Author,Title,Publication Year,Genre,Series,Page Count
+_id,author,title,publicationYear,genre,series,pageCount
 1,Jim Butcher,Storm Front,2000,Urban fantasy,Dresden Files,322
 2,Jim Butcher,Fool Moon,2001,Urban fantasy,Dresden Files,342
 3,Jim Butcher,Grave Peril,2001,Urban fantasy,Dresden Files,436
