@@ -21,10 +21,6 @@ const bookSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  _id: {
-    type: Number,
-    required: true
-  },
   series: String
 }, {
   timestamps: true
