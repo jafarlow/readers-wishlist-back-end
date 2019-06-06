@@ -4,6 +4,11 @@ const wishlistSchema = new mongoose.Schema({
   comment: {
     type: String,
   },
+  read: {
+    type: Boolean,
+    default: false,
+    required: true
+  },
   book: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Book',
