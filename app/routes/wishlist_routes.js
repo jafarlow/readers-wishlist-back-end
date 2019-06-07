@@ -59,7 +59,6 @@ router.get('/wishlists/:id', requireToken, (req, res, next) => {
 // POST /wishlists
 router.post('/wishlists', requireToken, (req, res, next) => {
   // set owner of new wishlist to be current user
-  console.log('****', req.body)
   req.body.wishlist.owner = req.user.id
 
   Wishlist.create(req.body.wishlist)
